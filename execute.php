@@ -45,7 +45,7 @@
 		//ho ricevuto e che si trova nella variabile $text
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		
-}
+
 if($text=="Audio"){
 	sendAudio($chatId,"audio.mp3", false, "Il mio Audio",$api);
 }
