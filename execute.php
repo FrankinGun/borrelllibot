@@ -53,7 +53,7 @@ if($text=="bad"){
 	sendAudio($chatId,"Bad Wolves - Zombie (Official Video).mp3", false, "Bad Wolves - Zombie (Official Video)",$api);
 }
 if($text=="doc"){
-	sendDocumenti($chatId,"testo.pdf",false,"il mio doc",$api);
+	sendDocument($chatId,"testo.pdf",false,"il mio doc",$api);
 }
 		//aggiungo il comando di invio
 		//e lo invio
